@@ -4,12 +4,28 @@
 #title{
     font-size: 50px;
     color: #0000ff;
-    text-align: center;
     margin-top: 60px;
+    margin-left: 20px;
 }
-#mylist{
+#my-list{
     color: darkblue;
 }
 #list{
     color: darkblue;
+}
+#header{
+    text-align: center;
+}
+#header *{
+    display: inline;
+}
+.blog-post{
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: lightblue;
+}
+.blog-post-header{
+    font-size: 20px;
+    text-align: left;
 }
