@@ -26,9 +26,19 @@
     margin-top: 10px;
     margin-bottom: 10px;
     background-color: lightblue;
-
+    border-radius: 5px;
+    padding: 5px;
 }
 .blog-post-header{
     font-size: 20px;
     text-align: left;
+    margin-top: 5px;
+}
+
+table, td, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td{
+    text-align: center;
 }
