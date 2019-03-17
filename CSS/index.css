@@ -1,6 +1,9 @@
 #quote{
     text-align: right;
 }
+body{
+    background-color: #ace5d7;
+}
 #title{
     font-size: 50px;
     color: #0000ff;
@@ -28,6 +31,7 @@
     background-color: lightblue;
     border-radius: 5px;
     padding: 5px;
+    border: 1px solid black;
 }
 .blog-post-header{
     font-size: 20px;
