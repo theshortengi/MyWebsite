@@ -2,19 +2,16 @@
     text-align: right;
 }
 body{
-    background-color: #ace5d7;
+    background-color: #0a4d6d;
 }
 #title{
     font-size: 50px;
-    color: #0000ff;
+    color: #ffffff;
     margin-top: 60px;
     margin-left: 20px;
 }
-#my-list{
-    color: darkblue;
-}
 #list{
-    color: darkblue;
+    color: #c9c9c9;
 }
 #header{
     text-align: center;
@@ -24,11 +21,8 @@ body{
 }
 .blog-post{
     text-align: justify;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: lightblue;
+    margin: 10px 20%;
+    background-color: #0b92cd;
     border-radius: 5px;
     padding: 5px;
     border: 1px solid black;
