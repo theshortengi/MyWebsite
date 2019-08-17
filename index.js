@@ -4,3 +4,14 @@ const quotes = ["Not All Who Wander Are Lost - J. R. R. Tolkien",
     ""];
 const quoteindex=Math.floor(Math.random()*quotes.length);
 randquote.textContent=quotes[quoteindex];
+
+function life() {
+    if (document.getElementById("1").checked==true&&document.getElementById("2").checked==true&&document.getElementById("3").checked==true){
+        const randnum=Math.floor(Math.random()*3)+1;
+        document.getElementById(randnum.toString()).checked=false;
+    }
+}
+
+document.getElementById("1").addEventListener("change",life);
+document.getElementById("2").addEventListener("change",life);
+document.getElementById("3").addEventListener("change",life);

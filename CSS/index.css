@@ -78,5 +78,6 @@ input:checked[type="checkbox"]:before
 
 .switch
 {
-    display: block;
+    display: flex;
+    align-items: center;
 }
